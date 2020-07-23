@@ -17,7 +17,7 @@ static Node* createNode_LinkedList(int value) {
 }
 
 static int isValidNode_LinkedList(Node* node){
-    return !(node==NULL);
+    return !(node == LIST_INVALID_NODE);
 }
 
 static void removeNode_LinkedList(LinkedList* listPtr,Node* nodePtr,Node* previousNodePtr){

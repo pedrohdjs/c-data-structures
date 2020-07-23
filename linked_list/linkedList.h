@@ -1,4 +1,5 @@
 //Author: https://github.com/pedrohdjs
+//This is a simple integer storing linked list, with pointers to it's head and it's tail.
 
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
@@ -16,15 +17,6 @@
  */
 #define foreach_LinkedList(nodePtr,listPtr)\
     for(nodePtr = listPtr->head; nodePtr != NULL; nodePtr = nodePtr->next)
-
-
-/** 
- * Definition notes:
- * 
- * -This is a integer storing simple linked list with pointers to both it's head and tail.
- * 
- */ 
-
 
 //A node, containing both it's own data and a pointer to the next node in the list.
 typedef struct node {
