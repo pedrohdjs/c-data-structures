@@ -53,7 +53,7 @@ void free_LinkedList (LinkedList* listPtr);
  * Complexity in this implementation: O(1).
  * 
  * @param listPtr: A pointer to a linked list
- * @return 0 if the list is empty, 1 if it is not empty.
+ * @return 1 if the list is empty, 0 if it is not empty.
  */
 int isEmpty_LinkedList(LinkedList* listPtr);
 
