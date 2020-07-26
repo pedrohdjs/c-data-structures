@@ -18,7 +18,7 @@
 #define foreach_Stack(nodePtr,stackPtr)\
     for(nodePtr = stackPtr->head; nodePtr != NULL; nodePtr = nodePtr->next)
 
-//A node, containing both it's own data and a pointer to the next node in the list.
+//A node, containing both it's own data and a pointer to the next node in the list-based data structure.
 typedef struct node {
     int data;
     struct node *next;

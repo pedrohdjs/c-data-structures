@@ -21,7 +21,8 @@ static int isValidNode_Stack(Node* node){
     return !(node == STACK_INVALID_NODE);
 }
 
-static int shiftHead_Stack(Stack* stackPtr){
+//Moves the stacks's head to it's head's following node.
+static void shiftHead_Stack(Stack* stackPtr){
     Node* head = stackPtr->head;
     stackPtr->head = head->next;
     free(head);
